@@ -1,0 +1,17 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+* {
+    font-family: 'Museo Sans', sans-serif;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/benefits';
