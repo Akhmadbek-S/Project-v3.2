@@ -24,14 +24,15 @@
         font-weight: 300;
     }
     &__link {
-        margin-top: 10px;
         display: block;
-        text-align: center;
+        margin: 0 auto;
+        width: 90px;
         color: #C70101;
         font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
         text-decoration-line: underline;
+        margin-top: 10px;
         transition: 0.4s all;
         &:hover {
             color: $second-color;
@@ -107,14 +108,15 @@
         }
     }
     &__back {
-        margin-top: 75px;
         display: block;
-        text-align: center;
+        margin: 0 auto;
+        width: 48px;
         color: #C70101;
         font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
         text-decoration-line: underline;
+        margin-top: 55px;
         transition: 0.4s all;
         &:hover {
             color: $second-color;
